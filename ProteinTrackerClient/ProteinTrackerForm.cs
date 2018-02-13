@@ -57,7 +57,6 @@ namespace ProteinTrackerClient
             catch(FaultException ex)
             {
                 Console.WriteLine("Could not add protein: {0}", ex);
-
             }
             
         }
